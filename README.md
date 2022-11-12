@@ -9,7 +9,7 @@ Dotnet core 5 web.config file setup for publish hosting asp.net
       <handlers>
         <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
       </handlers>
-      <aspNetCore processPath="dotnet" arguments=".\ECOMMERCE.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+      <aspNetCore processPath="dotnet" arguments=".\EXAMPLE.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
       <modules runAllManagedModulesForAllRequests="true">
         <remove name="WebDAVModule" />
       </modules>
